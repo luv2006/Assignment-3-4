@@ -1,0 +1,68 @@
+
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+
+  height: 100%;
+  
+}
+
+.card img {
+  height: 300px;
+  transition: transform 0.2s;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.card {
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  .carousel-item {
+      height: 300px;
+  }
+
+  .card img {
+      height: 200px;
+  }
+
+  .card {
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-item {
+      height: 200px;
+  }
+
+  .card img {
+      height: 200px;
+  }
+
+  .card {
+      margin-bottom: 15px;
+  }
+}
+
+.navbarcol{
+  margin: auto;
+}
